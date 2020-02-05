@@ -78,5 +78,7 @@ Chargez les fichiers `CAvideos.csv` et `FRvideos.csv` tel que vu en cours (n'oub
 Plusieurs de nos champs ont des valeurs similaires que nous souhaitons rassembler suite à la jointure des ensembles. Pour tous les champs ayant le même nom (nonobstant le suffixe) et de type numérique ou booléen, rassamblez les valeurs soit en choisissant le maximum, soit en prenant la valeur Vrai si l'un des deux ensemble est à vrai. Stockez le résultat dans la variable `video_propre`.
 
 
+## Continuons
 
+Nous pouvons passer à la [suite du cours](./7_introduction_matplotlib.md).
 
