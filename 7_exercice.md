@@ -4,20 +4,39 @@ Dans un fichier tiers exécutable en **Python**, saisissez vos commandes afin de
 
 N'oubliez pas de mettre tout texte additionnel en commentaire (en utilisant le symbole `#`).
 
-Ouvrez le fichier csv `./datasets/cars data.csv` et réalisez toutes les opérations nécessaires pour analyser les données.
+Ouvrez le fichier csv `./datasets/winemag-data-130k-v2.csv` et réalisez toutes les opérations nécessaires pour analyser les données.
 
-## Un mini projet d'analyse
+## 1.
 
-Nous allons aborder cette série d'exercices de façon plus libérale. À vous de choisir quelles opérations mettre en place selon vos ambitions.
+Dans la variable `info_clean`, stockez le jeu de données nettoyé de toutes ses valeurs nulles dans les champs `price` et `points`.
 
-Quelques idées:
+```
+(120975, 13)
+```
 
-* Comprenez les données proposées.
-* Recherchez un index valide.
-* Idenifiez diffrents groupes possibles.
-* Réalisez un ensemble de graphiques.
-* Générez un compte rendu.
+## 2.
+
+En continuant, dans la variable `vin_i`, filtrer sur l'ensemble des vins de manières à ne conservez que ceux dont le nom du pays de production commence par la lettre `i`.
+
+```
+(17412, 13)
+```
+
+## 3.
+
+Affichez dans une représentation de type histogramme, la distribution du nombre de vin pour chaque pays. Adaptez la visualisation de manière à ce que l'axe des ordonnées utilise une échelle logarithmique.
+
+![image](./image/7_6.png)
+
+## 4.
+
+Créez la représentation montrant pour chaque pays l'ensemble des prix pratiqués pour les vins en originant, que vous colorez en noir, ainsi que des courbes englobant ces valeurs et indiquant les prix maximum et minimum.
+
+![image](./image/7_7.png)
 
 
+## Continuons
+
+Nous pouvons passer à la [suite du cours](./8_regression_computation.md).
 
 

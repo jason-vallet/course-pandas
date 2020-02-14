@@ -47,6 +47,11 @@ Nous obtenons en résultat l'image suivante.
 
 ![image](./image/7_1.png)
 
+Si vous le souhaitez, il est également possible de sauvegarder l'image à générer plutôt que de l'afficher. Nous utilions alors la fonction `savefig`.
+
+```python
+mpl.savefig('./example.png', format='png')
+```
 
 ## Utilisation avec pandas
 
