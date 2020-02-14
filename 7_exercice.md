@@ -32,6 +32,8 @@ Affichez dans une représentation de type histogramme, la distribution du nombre
 
 Créez la représentation montrant pour chaque pays l'ensemble des prix pratiqués pour les vins en originant, que vous colorez en noir, ainsi que des courbes englobant ces valeurs et indiquant les prix maximum et minimum.
 
+Enregistrez directement le résultat dans un fichier.
+
 ![image](./image/7_7.png)
 
 

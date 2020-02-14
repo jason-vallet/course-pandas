@@ -14,10 +14,10 @@ Property                                                                   Value
 -------------------------------------------------------------------------------------------------------
 Mean of x                                                                      9    exact
 Sample variance of x : \sigma^2                                               11    exact
-Mean of y	                                                                7.50    to 2 decimal places
+Mean of y                                                                   7.50    to 2 decimal places
 Sample variance of y : \sigma^2                                            4.125    ±0.003
-Correlation between x and y	                                               0.816    to 3 decimal places
-Linear regression line	                                       y = 3.00 + 0.500x    to 2 decimal places
+Correlation between x and y                                                0.816    to 3 decimal places
+Linear regression line                                         y = 3.00 + 0.500x    to 2 decimal places
 Coefficient of determination of the linear regression : R^2                 0.67    to 2 decimal places
 ```
 
@@ -36,7 +36,7 @@ from sklearn.pipeline import make_pipeline
 Nous utilisons les colonnes `points` et `price` pour réaliser notre analyse de régression. La première étape est de nettoyer les données en enlevant toutes les valeurs non définies (par exemple `NaN`).
 
 ```python
-clean_info = info_vin.loc[(info_vin.points.notnull() & info_vin.price.notnull()]
+clean_info = info_vin.loc[(info_vin.points.notnull() & info_vin.price.notnull())]
 clean_info.shape
 ```
 
@@ -49,7 +49,7 @@ Nous procédons ensuite en séparant notre jeu de données entre un ensemble de 
 ```python
 X_train = clean_info.points[:100000].to_numpy()
 X_test = clean_info.points[100000:].to_numpy()
-# Y_train, Y_test
+
 Y_train = clean_info.price[:100000].to_numpy()
 Y_test = clean_info.price[100000:].to_numpy()
 ```
