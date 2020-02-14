@@ -17,6 +17,7 @@ Selon votre système et votre aisance, l'utilisation d'Anaconda peut être une a
 * installer *pandas* (`pip3 install pandas`)
 * installer *numpy* (`pip3 install numpy`)
 * installer *matplotlib* (`pip3 install matplotlib`)
+* installer *scikit-learn* (`pip3 install sklearn`)
 
 3. Préparer son environnement de travail
 
