@@ -25,4 +25,9 @@ Créez vos répertoires pour organiser les fichiers qui seront utilisés et cré
 
 4. Être curieux et ne pas avoir peur d'essayer et de se tromper!
 
+## Références
 
+* La [documentation de *pandas*](https://pandas.pydata.org/docs/reference/index.html) est l'endroit idéal pour trouver les informations complémentaires sur les paramètres des fonctions et méthodes.
+* Le [site de la librairie *matplotlib*](https://matplotlib.org) propose de nombreux exemples et une documentation complète sur les fonctionnalités disponibles.
+* La même remarque est valable pour le [site de la librairie *scikit-learn*](https://scikit-learn.org/stable/).
+* La structure de la partie *pandas* de ce cours a été très influencée par le [cours *pandas*](https://www.kaggle.com/learn/pandas) proposé sur le site [Kaggle](https://www.kaggle.com).
